@@ -1,0 +1,32 @@
+package com.remix;
+
+import java.util.Arrays;
+
+//正在的插入排序
+public class ChaRuPaiXu {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] x = { 5, 4 };
+		System.out.println(Arrays.toString(shot(x)));
+
+	}
+
+	public static int[] shot(int[] a) {
+		int value, j;
+		for (int i = 1; i < a.length; i++) {
+			value = a[i];
+			for (j = i - 1; j > 0; j--) {
+				if (value < a[j]) {
+					a[j + 1] = a[j];
+				} else {
+					break;
+				}
+			}
+			a[i-1] = value;
+		}
+
+		return a;
+
+	}
+}

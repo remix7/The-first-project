@@ -1,0 +1,16 @@
+package com.remix;
+
+public class Day06_4_1_2 {
+
+}
+class Array2{
+	public static void Reverse(){
+		int[] array = {1,2,5,8,6,12,82};
+		int swap = array[0];
+		for (int i = 0;  i< array.length; i++) {
+			if (condition) {
+				
+			}
+		}
+	}
+}

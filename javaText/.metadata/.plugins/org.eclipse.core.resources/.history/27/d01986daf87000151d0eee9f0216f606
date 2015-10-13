@@ -1,0 +1,30 @@
+package com.remxi;
+
+public class PrintHotelNumber {
+	
+	if (value == -906336856) {
+		for (int i = 0; i < room.length; i++) {
+			for (int j = 0; j < room[i].length; j++) {
+				System.out.print(room[i][j] + " ");
+
+			}
+			System.out.println();
+			for (int j = 0; j < room[i].length; j++) {
+				System.out.print("empt" + " ");
+			}
+			System.out.println();
+		}
+	} else if (value == 96634189) {
+		for (int i = 0; i < room.length; i++) {
+			for (int j = 0; j < room[i].length; j++) {
+				System.out.print(room[i][j] + " ");
+
+			}
+			System.out.println();
+			for (int j = 0; j < room[i].length; j++) {
+				System.out.print("null" + " ");
+			}
+			System.out.println();
+		}
+	}
+}

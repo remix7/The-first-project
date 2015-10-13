@@ -1,0 +1,23 @@
+package com.remix;
+//请申明一个数组（任意），并赋值，然后进行扩容操作，打印此数组。
+import java.util.Arrays;
+import java.util.Random;
+public class Main {
+    public static void main(String[] args) {
+        /*友情提示：请删除此段文字，在此输入Java代码*/
+//       int[] a = {1,2,3,4,5,10,3,5};
+//        a= Arrays.copyOf(a,a.length+1);
+//        System.out.println(Arrays.toString(a));
+//       Arrays.sort(a);
+//       
+//       System.out.println(Arrays.toString(a));
+    	int[] a = new int[1000000];
+    	for (int i = 0; i < a.length; i++) {
+			a[i] = new Random().nextInt(10000);
+		}
+    	long start = System.currentTimeMillis();
+    	Arrays.sort(a);
+    	long end = System.currentTimeMillis();
+    	System.out.println(end-start);
+   }
+}

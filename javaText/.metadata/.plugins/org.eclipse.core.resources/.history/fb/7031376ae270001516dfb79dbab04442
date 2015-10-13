@@ -1,0 +1,30 @@
+package com.remix;
+
+import java.util.Arrays;
+import java.util.Random;
+
+public class Day08_4_1_9_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(Arrays.toString(RandomTest()));
+	}
+
+	public static int[] RandomTest() {
+		int[] a = new int[50];
+		int x = 0;
+		Random r = new Random();
+		while (true) {
+			a[x] = r.nextInt(101);
+			if (a[x] == 0) {
+				continue;
+			}
+			x++;
+			if (x++>50) {
+				break;
+			}
+		}
+		return a;
+	}
+
+}

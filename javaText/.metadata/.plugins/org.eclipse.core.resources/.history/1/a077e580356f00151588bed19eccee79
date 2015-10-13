@@ -1,0 +1,21 @@
+package com.remix;
+
+public class Day06_4_1_3_2 {
+	public static void main(String[] args) {
+		
+	}
+}
+class yinzi_1{
+	public static int[] serach(int n){
+		
+	}
+	public static int ArrayLength(int n){
+		int count = 0;
+		for (int i = 1; i <= n/2; i++) {
+			if (n%i == 0 && n != i) {
+				count++;
+			}
+			return count;
+		}
+	}
+}

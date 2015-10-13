@@ -1,0 +1,7 @@
+package com.remxi;
+
+public class InHotel {
+	public static void inHotel(){
+		
+	}
+}

@@ -1,0 +1,35 @@
+package com.remix;
+//计算任一个数的因子  病保存带数组中   遍历数组
+
+import java.util.Scanner;
+
+public class Day06_4_1_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] c = yinzi.yin();
+		for (int i = 0; i < c.length; i++) {
+			System.out.println(c[i]);
+		}
+	}
+
+}
+class yinzi{
+	public static int[] yin(){
+		Scanner s = new Scanner(System.in);
+		System.out.println("请输入一个数");
+		int a = s.nextInt();
+		int[] b = new int[2];
+		int sum=0;
+		for (int i = 1; i <= a; i++) {
+			if (a%i == 0 && a != i) {
+				b[i]=i;
+				
+				sum+= i;
+			}
+		}
+		System.out.println(sum);
+		return b;
+	}
+	
+}

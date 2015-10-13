@@ -1,0 +1,8 @@
+package com.remxi;
+
+public class InHotel {
+	public static void inHotel(int index){
+		Search.PrintHotelNumber(Search.searhcHotel(), index);
+		
+	}
+}

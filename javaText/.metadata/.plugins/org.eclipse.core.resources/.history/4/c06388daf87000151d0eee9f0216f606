@@ -1,0 +1,9 @@
+package com.remxi;
+
+public class PrintHotelNumber {
+	public static void main(String[] args) {
+		String[][] room = Search.searhcHotel();
+	}
+	pub
+	
+}

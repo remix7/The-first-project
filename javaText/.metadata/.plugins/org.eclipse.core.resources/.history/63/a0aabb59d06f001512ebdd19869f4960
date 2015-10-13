@@ -1,0 +1,46 @@
+package com.remix;
+
+import java.util.Arrays;
+
+/*
+ * 请找出 {1,123,234,32534,54,432,2232,65,34,21,213,246,7,212,44,123,324567765}
+ * 中能被4整除的数中最大和最小值，并打印出来。
+ * 
+ * */
+public class lianxi_2 {
+	public static void main(String[] args) {
+		int[] x = {1,123,234,32534,54,432,2232,65,34,21,213,246,7,212,44,123,324567765};
+//		System.out.println("最大的数为："+getMax(x));
+//		System.out.println("最小的数为：" +getMin(x));
+		x = Arrays.copyOf(x, 2*x.length);
+		sop(x);
+		
+	}
+	public static int getMax(int[] array){
+		int max = Integer.MIN_VALUE;
+		for (int i = 0; i < array.length; i++) {
+			if (array[i]%4 == 0) {
+				if (array[i]>max) {
+					max = array[i];
+				}
+			}
+		}
+		return max;
+	}
+	public static int getMin(int[] array){
+		int min = Integer.MAX_VALUE;
+		for (int i = 0; i < array.length; i++) {
+			if (array[i]%4 == 0) {
+				if (array[i]<min) {
+					min = array[i];
+				}
+			}
+		}
+		return min;
+	}
+	public static void sop(Object[] obj){
+		for (int i = 0; i < obj.length; i++) {
+			System.out.print(obj[i]+" ");
+		}
+	}
+}

@@ -1,0 +1,16 @@
+package com.remix;
+
+public class Day08_4_1_9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	public static String[] StringLunch(){
+		String[] s = new String[99];
+		for (int i = 0; i < s.length; i++) {
+			int x = 01;
+			s[i] = ""+x+"" ;
+		}
+	}
+}
