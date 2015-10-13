@@ -1,0 +1,5 @@
+D:\Work\p145_4\p145_4\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\p145_4\p145_4\bin\Debug\p145_4.exe
+D:\Work\p145_4\p145_4\bin\Debug\p145_4.pdb
+D:\Work\p145_4\p145_4\obj\Debug\p145_4.exe
+D:\Work\p145_4\p145_4\obj\Debug\p145_4.pdb

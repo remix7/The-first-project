@@ -1,0 +1,15 @@
+package day2015_05_28;
+
+public class MainBoard {
+	String name;
+	DisPlay disPlay;
+	Cache cache;
+	public static void main(String[] args) {
+		MainBoard mainBoard = new MainBoard();
+		mainBoard.cache.canCache();
+		mainBoard.cache = new Nvidia();
+		mainBoard.disPlay.canDisplay();
+		mainBoard.disPlay = new Kingston();
+	}
+	
+}

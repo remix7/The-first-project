@@ -1,0 +1,8 @@
+D:\work\jisuanqC\jisuanq\bin\Debug\jisuanq.exe
+D:\work\jisuanqC\jisuanq\bin\Debug\jisuanq.pdb
+D:\work\jisuanqC\jisuanq\obj\Debug\ResolveAssemblyReference.cache
+D:\work\jisuanqC\jisuanq\obj\Debug\jisuanq.Form1.resources
+D:\work\jisuanqC\jisuanq\obj\Debug\jisuanq.Properties.Resources.resources
+D:\work\jisuanqC\jisuanq\obj\Debug\jisuanq.csproj.GenerateResource.Cache
+D:\work\jisuanqC\jisuanq\obj\Debug\jisuanq.exe
+D:\work\jisuanqC\jisuanq\obj\Debug\jisuanq.pdb

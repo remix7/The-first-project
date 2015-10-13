@@ -1,0 +1,5 @@
+D:\work\1-1000sushuC\1-1000sushu\obj\Debug\ResolveAssemblyReference.cache
+D:\work\1-1000sushuC\1-1000sushu\bin\Debug\1-1000sushu.exe
+D:\work\1-1000sushuC\1-1000sushu\bin\Debug\1-1000sushu.pdb
+D:\work\1-1000sushuC\1-1000sushu\obj\Debug\1-1000sushu.exe
+D:\work\1-1000sushuC\1-1000sushu\obj\Debug\1-1000sushu.pdb

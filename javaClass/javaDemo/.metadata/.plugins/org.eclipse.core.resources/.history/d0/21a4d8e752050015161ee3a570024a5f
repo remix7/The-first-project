@@ -1,0 +1,8 @@
+package day2015_05_28;
+
+public class MainBoard {
+	String name;
+	DisPlay disPlay;
+	Chche chche;
+	
+}

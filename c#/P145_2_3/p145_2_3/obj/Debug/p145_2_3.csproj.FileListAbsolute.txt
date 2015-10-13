@@ -1,0 +1,8 @@
+D:\P145\P145_2_3\p145_2_3\bin\Debug\p145_2_3.exe
+D:\P145\P145_2_3\p145_2_3\bin\Debug\p145_2_3.pdb
+D:\P145\P145_2_3\p145_2_3\obj\Debug\ResolveAssemblyReference.cache
+D:\P145\P145_2_3\p145_2_3\obj\Debug\p145_2_3.Form1.resources
+D:\P145\P145_2_3\p145_2_3\obj\Debug\p145_2_3.Properties.Resources.resources
+D:\P145\P145_2_3\p145_2_3\obj\Debug\p145_2_3.csproj.GenerateResource.Cache
+D:\P145\P145_2_3\p145_2_3\obj\Debug\p145_2_3.exe
+D:\P145\P145_2_3\p145_2_3\obj\Debug\p145_2_3.pdb

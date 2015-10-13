@@ -1,0 +1,10 @@
+D:\work\Sanjiaoxing\sanjiaoxing\bin\Debug\sanjiaoxing.exe
+D:\work\Sanjiaoxing\sanjiaoxing\bin\Debug\sanjiaoxing.pdb
+D:\work\Sanjiaoxing\sanjiaoxing\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Sanjiaoxing\sanjiaoxing\obj\Debug\sanjiaoxing.Form1.resources
+D:\work\Sanjiaoxing\sanjiaoxing\obj\Debug\sanjiaoxing.Properties.Resources.resources
+D:\work\Sanjiaoxing\sanjiaoxing\obj\Debug\sanjiaoxing.csproj.GenerateResource.Cache
+D:\work\Sanjiaoxing\sanjiaoxing\obj\Debug\sanjiaoxing.exe
+D:\work\Sanjiaoxing\sanjiaoxing\obj\Debug\sanjiaoxing.pdb
+C:\Documents and Settings\thtfpc\桌面\1414010122 刘涛\Sanjiaoxing\sanjiaoxing\obj\Debug\sanjiaoxing.exe
+C:\Documents and Settings\thtfpc\桌面\1414010122 刘涛\Sanjiaoxing\sanjiaoxing\obj\Debug\sanjiaoxing.pdb

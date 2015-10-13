@@ -1,0 +1,10 @@
+D:\work\daikuanjsq\daikuanjsq\obj\Debug\ResolveAssemblyReference.cache
+D:\work\daikuanjsq\daikuanjsq\obj\Debug\daikuanjsq.Form1.resources
+D:\work\daikuanjsq\daikuanjsq\obj\Debug\daikuanjsq.Properties.Resources.resources
+D:\work\daikuanjsq\daikuanjsq\obj\Debug\daikuanjsq.csproj.GenerateResource.Cache
+D:\work\daikuanjsq\daikuanjsq\bin\Debug\daikuanjsq.exe
+D:\work\daikuanjsq\daikuanjsq\bin\Debug\daikuanjsq.pdb
+D:\work\daikuanjsq\daikuanjsq\obj\Debug\daikuanjsq.exe
+D:\work\daikuanjsq\daikuanjsq\obj\Debug\daikuanjsq.pdb
+C:\Documents and Settings\thtfpc\桌面\1414010122 刘涛\daikuanjsq\daikuanjsq\obj\Debug\daikuanjsq.exe
+C:\Documents and Settings\thtfpc\桌面\1414010122 刘涛\daikuanjsq\daikuanjsq\obj\Debug\daikuanjsq.pdb

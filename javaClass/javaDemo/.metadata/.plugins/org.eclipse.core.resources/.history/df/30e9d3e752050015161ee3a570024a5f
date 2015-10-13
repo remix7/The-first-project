@@ -1,0 +1,10 @@
+package day2015_05_28;
+
+public class MeiGuang  implements DisPlay{
+
+	@Override
+	public void Display() {
+		System.out.println("我是镁光内存条");
+	}
+
+}

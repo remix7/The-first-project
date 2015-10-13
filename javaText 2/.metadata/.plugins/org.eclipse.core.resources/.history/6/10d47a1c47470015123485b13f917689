@@ -1,0 +1,29 @@
+package com.lianxi;
+import java.util.*;
+
+public class TreeSetTest2 {
+	public static void main(String[] args) {
+		TreeSet ts = new TreeSet();
+		ts.add("asfl");
+		ts.add("afasf");
+		ts.add("adfaskldfjsaf");
+		ts.add("asdfsa");
+		
+		Iterator it = ts.iterator();
+		while(it.hasNext()){
+			System.out.println(it.next());
+		}
+	}
+}
+class StrLenComparator implements Comparable{
+
+	public int compare(Object arg0,Object o2) {
+		String s1 = (String)arg0;
+		String s2 = (String)o2;
+
+	public int compareTo(Object arg0) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}

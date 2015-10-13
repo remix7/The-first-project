@@ -1,0 +1,17 @@
+package com.lianxi;
+import java.util.*;
+
+public class TreeSetTest2 {
+	public static void main(String[] args) {
+		TreeSet ts = new TreeSet();
+		ts.add("asfl");
+		ts.add("dfasf");
+		ts.add("sdfaskldfjsaf");
+		ts.add("a");
+		
+		Iterator it = ts.iterator();
+		while(it.hasNext()){
+			System.out.println(it.next());
+		}
+	}
+}

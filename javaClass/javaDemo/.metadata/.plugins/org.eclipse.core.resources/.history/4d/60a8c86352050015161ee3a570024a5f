@@ -1,0 +1,10 @@
+package day2015_05_28;
+
+public class Nvidia implements XianKa{
+
+	@Override
+	public void canXianKa() {
+		System.out.println("Œ“ «”¢Œ∞¥Ôœ‘ø®");
+	}
+
+}

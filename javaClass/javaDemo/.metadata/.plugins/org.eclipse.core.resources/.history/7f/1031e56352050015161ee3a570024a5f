@@ -1,0 +1,10 @@
+package day2015_05_28;
+
+public class Intel implements XianKa{
+
+	@Override
+	public void canXianKa() {
+		System.out.println("我是因特尔显卡");
+	}
+
+}

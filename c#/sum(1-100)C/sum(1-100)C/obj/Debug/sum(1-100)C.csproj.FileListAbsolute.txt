@@ -1,0 +1,5 @@
+D:\work\sum(1-100)C\sum(1-100)C\bin\Debug\sum(1-100)C.exe
+D:\work\sum(1-100)C\sum(1-100)C\bin\Debug\sum(1-100)C.pdb
+D:\work\sum(1-100)C\sum(1-100)C\obj\Debug\ResolveAssemblyReference.cache
+D:\work\sum(1-100)C\sum(1-100)C\obj\Debug\sum(1-100)C.exe
+D:\work\sum(1-100)C\sum(1-100)C\obj\Debug\sum(1-100)C.pdb

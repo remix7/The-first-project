@@ -1,0 +1,5 @@
+D:\P99\p99_3_4\p99_3_4\bin\Debug\p99_3_4.exe
+D:\P99\p99_3_4\p99_3_4\bin\Debug\p99_3_4.pdb
+D:\P99\p99_3_4\p99_3_4\obj\Debug\ResolveAssemblyReference.cache
+D:\P99\p99_3_4\p99_3_4\obj\Debug\p99_3_4.exe
+D:\P99\p99_3_4\p99_3_4\obj\Debug\p99_3_4.pdb

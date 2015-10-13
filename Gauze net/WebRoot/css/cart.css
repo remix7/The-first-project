@@ -1,0 +1,35 @@
+#cart th,#cart tr
+{
+	height:30px;
+}
+
+.btn_delete a
+{
+	display:block;
+	width:65px;
+	height:29px;
+	background-image:url('../image/delete.jpg');
+}
+
+#btns
+{
+	width:300px;
+	margin:10px 0 0 200px;
+}
+
+#goonbuy a
+{
+	display:block;
+	width:78px;
+	height:34px;
+	background-image:url('../image/goonbuy.jpg');
+	float:left;
+}
+#gotopay a
+{
+	display:block;
+	width:78px;
+	height:34px;
+	background-image:url('../image/gotopay.jpg');
+	float:right;
+}

@@ -1,0 +1,100 @@
+App.progressCountTotal = 12;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///E|/web3/image/5.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = '5.jpg';
+if (!Files.exists('file:///E|/web3/image/images/5_jpg.jpg') || confirm('file:///E|/web3/image/images/5_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/images/5_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/web3/image/thumbnails/5_jpg.jpg') || confirm('file:///E|/web3/image/thumbnails/5_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/thumbnails/5_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/web3/image/1.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = '1.jpg';
+if (!Files.exists('file:///E|/web3/image/images/1_jpg.jpg') || confirm('file:///E|/web3/image/images/1_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/images/1_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/web3/image/thumbnails/1_jpg.jpg') || confirm('file:///E|/web3/image/thumbnails/1_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/thumbnails/1_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/web3/image/2.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = '2.jpg';
+if (!Files.exists('file:///E|/web3/image/images/2_jpg.jpg') || confirm('file:///E|/web3/image/images/2_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/images/2_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/web3/image/thumbnails/2_jpg.jpg') || confirm('file:///E|/web3/image/thumbnails/2_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/thumbnails/2_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/web3/image/3.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = '3.jpg';
+if (!Files.exists('file:///E|/web3/image/images/3_jpg.jpg') || confirm('file:///E|/web3/image/images/3_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/images/3_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/web3/image/thumbnails/3_jpg.jpg') || confirm('file:///E|/web3/image/thumbnails/3_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/thumbnails/3_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/web3/image/4.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = '4.jpg';
+if (!Files.exists('file:///E|/web3/image/images/4_jpg.jpg') || confirm('file:///E|/web3/image/images/4_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/images/4_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/web3/image/thumbnails/4_jpg.jpg') || confirm('file:///E|/web3/image/thumbnails/4_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/thumbnails/4_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/web3/image/6.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = '6.jpg';
+if (!Files.exists('file:///E|/web3/image/images/6_jpg.jpg') || confirm('file:///E|/web3/image/images/6_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/images/6_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/web3/image/thumbnails/6_jpg.jpg') || confirm('file:///E|/web3/image/thumbnails/6_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/thumbnails/6_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/web3/image/12.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = '12.jpg';
+if (!Files.exists('file:///E|/web3/image/images/12_jpg.jpg') || confirm('file:///E|/web3/image/images/12_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/images/12_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/web3/image/thumbnails/12_jpg.jpg') || confirm('file:///E|/web3/image/thumbnails/12_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/thumbnails/12_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/web3/image/11.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = '11.jpg';
+if (!Files.exists('file:///E|/web3/image/images/11_jpg.jpg') || confirm('file:///E|/web3/image/images/11_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/images/11_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/web3/image/thumbnails/11_jpg.jpg') || confirm('file:///E|/web3/image/thumbnails/11_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/thumbnails/11_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/web3/image/10.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = '10.jpg';
+if (!Files.exists('file:///E|/web3/image/images/10_jpg.jpg') || confirm('file:///E|/web3/image/images/10_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/images/10_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/web3/image/thumbnails/10_jpg.jpg') || confirm('file:///E|/web3/image/thumbnails/10_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/thumbnails/10_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/web3/image/9.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = '9.jpg';
+if (!Files.exists('file:///E|/web3/image/images/9_jpg.jpg') || confirm('file:///E|/web3/image/images/9_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/images/9_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/web3/image/thumbnails/9_jpg.jpg') || confirm('file:///E|/web3/image/thumbnails/9_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/thumbnails/9_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/web3/image/8.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = '8.jpg';
+if (!Files.exists('file:///E|/web3/image/images/8_jpg.jpg') || confirm('file:///E|/web3/image/images/8_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/images/8_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/web3/image/thumbnails/8_jpg.jpg') || confirm('file:///E|/web3/image/thumbnails/8_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/thumbnails/8_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/web3/image/7.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = '7.jpg';
+if (!Files.exists('file:///E|/web3/image/images/7_jpg.jpg') || confirm('file:///E|/web3/image/images/7_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/images/7_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/web3/image/thumbnails/7_jpg.jpg') || confirm('file:///E|/web3/image/thumbnails/7_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/web3/image/thumbnails/7_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+'done';

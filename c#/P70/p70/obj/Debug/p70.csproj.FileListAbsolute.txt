@@ -1,0 +1,8 @@
+D:\work\P70\p70\bin\Debug\p70.exe
+D:\work\P70\p70\bin\Debug\p70.pdb
+D:\work\P70\p70\obj\Debug\ResolveAssemblyReference.cache
+D:\work\P70\p70\obj\Debug\p70.Form1.resources
+D:\work\P70\p70\obj\Debug\p70.Properties.Resources.resources
+D:\work\P70\p70\obj\Debug\p70.csproj.GenerateResource.Cache
+D:\work\P70\p70\obj\Debug\p70.exe
+D:\work\P70\p70\obj\Debug\p70.pdb

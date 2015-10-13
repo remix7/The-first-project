@@ -1,0 +1,8 @@
+D:\work\p63\p63\bin\Debug\p63.exe
+D:\work\p63\p63\bin\Debug\p63.pdb
+D:\work\p63\p63\obj\Debug\ResolveAssemblyReference.cache
+D:\work\p63\p63\obj\Debug\p63.Form1.resources
+D:\work\p63\p63\obj\Debug\p63.Properties.Resources.resources
+D:\work\p63\p63\obj\Debug\p63.csproj.GenerateResource.Cache
+D:\work\p63\p63\obj\Debug\p63.exe
+D:\work\p63\p63\obj\Debug\p63.pdb

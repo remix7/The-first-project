@@ -1,0 +1,8 @@
+D:\work\jfjsqC\jfjsq\bin\Debug\jfjsq.exe
+D:\work\jfjsqC\jfjsq\bin\Debug\jfjsq.pdb
+D:\work\jfjsqC\jfjsq\obj\Debug\ResolveAssemblyReference.cache
+D:\work\jfjsqC\jfjsq\obj\Debug\jfjsq.Form1.resources
+D:\work\jfjsqC\jfjsq\obj\Debug\jfjsq.Properties.Resources.resources
+D:\work\jfjsqC\jfjsq\obj\Debug\jfjsq.csproj.GenerateResource.Cache
+D:\work\jfjsqC\jfjsq\obj\Debug\jfjsq.exe
+D:\work\jfjsqC\jfjsq\obj\Debug\jfjsq.pdb

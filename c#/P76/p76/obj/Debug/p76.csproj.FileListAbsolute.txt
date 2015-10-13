@@ -1,0 +1,5 @@
+D:\work\P76\p76\obj\Debug\ResolveAssemblyReference.cache
+D:\work\P76\p76\bin\Debug\p76.exe
+D:\work\P76\p76\bin\Debug\p76.pdb
+D:\work\P76\p76\obj\Debug\p76.exe
+D:\work\P76\p76\obj\Debug\p76.pdb

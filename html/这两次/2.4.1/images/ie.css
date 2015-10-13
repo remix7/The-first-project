@@ -1,0 +1,54 @@
+BODY {
+	FONT-SIZE: 9pt; MARGIN: 0px; FONT-FAMILY: "宋体",'Verdana','Arial','Helvetica','sans-serif'
+}
+TD {
+	FONT: 9pt/14pt "宋体",'Verdana','Arial','Helvetica','sans-serif'
+}
+.white {
+	FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: "宋体",'Verdana','Arial','Helvetica','sans-serif'
+}
+A {
+	COLOR: #666666; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #99ccee; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+A:link {
+	COLOR: #000099; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A.white {
+	COLOR: #ffffff; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A.white:hover {
+	COLOR: #ffffff; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+.padding {
+	PADDING-LEFT: 15px; PADDING-TOP: 5px
+}
+.menu {
+	FONT-SIZE: 9pt; FILTER: DropShadow(Color=#555555, OffX=1, OffY=1, Positive=-1); COLOR: #ffffff; LINE-HEIGHT: 16pt; TEXT-DECORATION: none
+}
+.menu1 {
+	FONT-SIZE: 9pt; FILTER: DropShadow(Color=#ffffff, OffX=1, OffY=1, Positive=-1); COLOR: #000000; LINE-HEIGHT: 16pt; TEXT-DECORATION: none
+}
+.menu2 {
+	FONT-SIZE: 9pt; FILTER: DropShadow(Color=#ffffff, OffX=1, OffY=1, Positive=-1); COLOR: #000000; LINE-HEIGHT: 16pt; LETTER-SPACING: 7px; TEXT-DECORATION: none
+}
+.menu3 {
+	FONT-SIZE: 9pt; FILTER: DropShadow(Color=#ffffff, OffX=1, OffY=1, Positive=-1); COLOR: #000000; LINE-HEIGHT: 16pt; LETTER-SPACING: 2px; TEXT-DECORATION: none
+}
+.menu4 {
+	FONT-SIZE: 11px; COLOR: #000000; LINE-HEIGHT: 16pt; FONT-FAMILY: 'Arial'; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+A.black {
+	COLOR: #000000; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A.black:hover {
+	COLOR: #666666; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+.input {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(/images/input_bg_01.gif); BORDER-LEFT: 0px; WIDTH: 59px; COLOR: #ffffff; BORDER-BOTTOM: 0px; HEIGHT: 23px; text-align：bottom: 
+}

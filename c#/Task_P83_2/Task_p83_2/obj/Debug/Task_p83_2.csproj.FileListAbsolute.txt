@@ -1,0 +1,5 @@
+D:\Task_P83\Task_P83_2\Task_p83_2\obj\Debug\ResolveAssemblyReference.cache
+D:\Task_P83\Task_P83_2\Task_p83_2\bin\Debug\Task_p83_2.exe
+D:\Task_P83\Task_P83_2\Task_p83_2\bin\Debug\Task_p83_2.pdb
+D:\Task_P83\Task_P83_2\Task_p83_2\obj\Debug\Task_p83_2.exe
+D:\Task_P83\Task_P83_2\Task_p83_2\obj\Debug\Task_p83_2.pdb

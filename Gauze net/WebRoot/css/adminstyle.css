@@ -1,0 +1,16 @@
+/* CSS Document */
+#statistic_info
+{
+	color:navy;
+	margin:30px;
+}
+fieldset table
+{
+    margin: 0 auto;
+    line-height: 20px;
+    width: 600px;
+}
+fieldset table td
+{
+	text-align:center;
+}

@@ -1,0 +1,8 @@
+D:\work\P70 3_13\p70 3_13\bin\Debug\p70 3_13.exe
+D:\work\P70 3_13\p70 3_13\bin\Debug\p70 3_13.pdb
+D:\work\P70 3_13\p70 3_13\obj\Debug\ResolveAssemblyReference.cache
+D:\work\P70 3_13\p70 3_13\obj\Debug\p70_3_13.Form1.resources
+D:\work\P70 3_13\p70 3_13\obj\Debug\p70_3_13.Properties.Resources.resources
+D:\work\P70 3_13\p70 3_13\obj\Debug\p70 3_13.csproj.GenerateResource.Cache
+D:\work\P70 3_13\p70 3_13\obj\Debug\p70 3_13.exe
+D:\work\P70 3_13\p70 3_13\obj\Debug\p70 3_13.pdb

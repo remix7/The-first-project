@@ -1,0 +1,8 @@
+D:\work\Daikuanjsq\daikuanjsq\bin\Debug\daikuanjsq.exe
+D:\work\Daikuanjsq\daikuanjsq\bin\Debug\daikuanjsq.pdb
+D:\work\Daikuanjsq\daikuanjsq\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Daikuanjsq\daikuanjsq\obj\Debug\daikuanjsq.Form1.resources
+D:\work\Daikuanjsq\daikuanjsq\obj\Debug\daikuanjsq.Properties.Resources.resources
+D:\work\Daikuanjsq\daikuanjsq\obj\Debug\daikuanjsq.csproj.GenerateResource.Cache
+D:\work\Daikuanjsq\daikuanjsq\obj\Debug\daikuanjsq.exe
+D:\work\Daikuanjsq\daikuanjsq\obj\Debug\daikuanjsq.pdb
