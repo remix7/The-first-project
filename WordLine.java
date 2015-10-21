@@ -29,10 +29,10 @@ public class WordLine {
 class openFile {
 	public void getFile(String read, String writer) throws IOException {
 		try {
-			//´Ó×Ö·ûÁ÷ÖÐ¶ÁÈ¡ÎÄ±¾
+			//ä»Žå­—ç¬¦æµä¸­è¯»å–æ–‡æœ¬
 			BufferedReader bf = new BufferedReader(new FileReader(
 					new File(read)));
-			//½«ÎÄ±¾Ð´Èë×Ö·û³öÁ÷
+			//å°†æ–‡æœ¬å†™å…¥å­—ç¬¦å‡ºæµ
 			BufferedWriter bw = new BufferedWriter(new FileWriter(new File(
 					writer)));
 			String s;
@@ -41,7 +41,7 @@ class openFile {
 				if (s.length() > 0) {
 					if (!(s.substring(s.length() - 5).trim().equals("None"))) {
 						buffered = s.substring(s.length() -30).trim();
-						bw.write(buffered.substring(buffered.lastIndexOf("-")+1).trim() + "\t\n");
+						bw.write(buffered.substring(buffered.lastIndexOf("-")+1).trim() + "\n");
 					}
 				}
 			}
