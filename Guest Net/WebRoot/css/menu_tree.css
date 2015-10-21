@@ -1,0 +1,37 @@
+
+.menutree
+{
+	width: 110px;
+	height: 26px;
+	line-height: 26px;
+	background: #000;
+	color: #FC0;
+	cursor: pointer;
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bolder;
+}
+.menutree_sub
+{
+    width: 112px;
+    background-color: #FC0 ;
+    display: none;
+}
+.menutree_sub ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menutree_sub ul li
+{
+    border-bottom: 1px solid #FF8000;
+    line-height: 24px;
+    text-align: center;
+}
+.menutree_sub ul li a
+{
+	color: #F60;
+	text-decoration: none;
+	font-weight: bolder;
+}

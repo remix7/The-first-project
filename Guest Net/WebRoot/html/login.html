@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>网络书店-登录页面</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script type="text/javascript">
+
+        function chkUnInput() {
+            var objvalue = form1.username.value;
+            if (objvalue.length > 8 || objvalue.length < 3) {
+                //用ID查找
+                document.getElementById("chkUnInfo").innerHTML = "长度要求3-8位字符！";
+            } else {
+                document.getElementById("chkUnInfo").innerHTML = "符合要求！";
+            }
+        }
+
+
+        function chkPwdInput() {
+            //有name属性的读取
+            var pwd1 = form1.password1.value;
+
+            if (pwd1.length > 8 || pwd1.length < 3) {
+                document.getElementById("chkPwd1Info").innerHTML = "长度要求3-8位字符！";
+            } else {
+                document.getElementById("chkPwd1Info").innerHTML = "符合要求！";
+            }
+        }
+        function checkAll() {
+            if (form1.username.value == '' || form1.password1.value == '') {
+                window.alert('请输入正确的注册信息1！');
+                return false;
+            }
+            var chk1 = document.getElementById("chkUnInfo").innerHTML;
+            var chk2 = document.getElementById("chkPwd1Info").innerHTML;
+
+            if (chk1 != '符合要求！' || chk2 != '符合要求！') {
+                window.alert('请输入正确的注册信息2！' + chk1);
+                return false;
+            }
+        }
+    </script>
+</head>
+<body onload="chkUnInput();chkPwdInput();">
+    <div id="main">
+        <div id="header">
+            <div id="logo">
+            </div>
+        </div>
+        <div id="menu">
+            <div id="width170">
+                &nbsp;
+            </div>
+            <ul>
+
+                <li>
+                    <a href="index.html">首页</a>
+                </li>
+                <li id="current"><a href="login.html">登录</a> </li>
+                <li>
+                    <a href="register.html">注册</a>
+                </li>
+                <li>
+                    <a href="cart.html">购物车</a>
+                </li>
+                <li>
+                    <a href="adminlogin.html">管理员登录</a>
+                </li>
+            </ul>
+            <div id="login_info">
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <div id="content">
+            <fieldset>
+                <legend>登录页面 </legend>
+                <div id="inputform">
+                    <form action="loginControl" method="get" name="form1">
+                        用户名：
+                    <br />
+                        <input type="text" name="username" onchange="chkUnInput()" onfocus="chkUnInput()" />
+                        <span id="chkUnInfo"></span>
+                        <br />
+                        密码：
+                    <br />
+                        <input type="password" name="password1" onchange="chkPwdInput()" onfocus="chkPwdInput()" />
+                        <span id="chkPwd1Info"></span>
+                        <br />
+                        <span id="chkPwd1Pwd2"></span>
+                        <br />
+                        <input type="submit" value="提交" onclick="return checkAll();" />
+                        <input type="reset" value="重置" />
+                    </form>
+                </div>
+            </fieldset>
+        </div>
+        <div id="footer">
+            <hr />
+            四川师范大学 计算机科学学院
+          
+            <br />
+            <br/>
+            制作：梁爽
+            <br />
+            更新：2013.12
+        </div>
+    </div>
+</body>
+</html>

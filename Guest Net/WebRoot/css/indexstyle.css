@@ -1,0 +1,152 @@
+/* CSS Document */
+body
+{
+	background-color:#FFCB99;
+}
+#content_index
+{
+    width: 800px;
+	/* height:300px; */
+    border: 0px solid #000066;
+    margin: 20px auto;
+}
+#content_left
+{
+    width: 112px;
+	/* height:300px; */
+    border: 1px solid #000066;
+    margin: 0 0 5px 0;
+	float:left;
+}
+#content_right
+{
+    width: 676px;
+	/* height:300px; */
+    border: 1px solid #000066;
+    margin: 0 0 5px 0;
+	float:right;
+}
+#dresses
+{	
+	padding:30px 0;
+}
+.dress
+{	
+	border: 0px solid #000066;
+	border-left:0;
+	border-right:0;
+}
+.dress_img
+{
+	width:180px;
+	height:180px;
+	float:left;
+	border: 0px solid #000066;
+}
+.dress_img a
+{
+}
+.dress_img a img
+{
+	border:0px;
+}
+
+.dress_intro
+{
+	width:280px;
+	height:160px;
+	float:left;
+	border: 0px solid #000066;
+	line-height:24px;
+	padding:10px;
+}
+.dress_title
+{
+	font-family:ºÚÌå;
+	font-size:18px;
+	width:260px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.dress_title a
+{
+	text-decoration:none;
+	color:black;
+	font-size:16px;
+}
+
+
+
+.dress_price
+{
+	width:190px;
+	height:180px;
+	float:left;
+	border: 0px solid #000066;
+	text-align:right;
+
+	font-family:ºÚÌå;
+}
+.dressPrice
+{
+	color:#FF0000;
+	margin:10px 10px 20px 0px;
+	font-size:20px;
+	border: 0px solid #000066;
+	height:60px;
+}
+.dressListPrice
+{
+	color:#333333;
+	text-decoration:line-through;
+		margin:0 10px;
+			font-size:20px;
+			height:40px;
+			border: 0px solid #000066;
+}
+.buy
+{
+	display:block;
+	background-image:url('../image/buy.jpg');
+	width:64px;
+	height:34px;
+	float:left;
+	margin:3px;
+}
+.collect
+{
+	display:block;
+	background-image:url('../image/collect.jpg');
+	width:64px;
+	height:34px;
+	float:left;
+		margin:3px;
+}
+#pageselector2
+{
+
+}
+
+#pageselector2 span,#pageselector2 a
+{
+	display:block;
+	border:1px solid blue;
+	width:50px;
+	float:right;
+	text-align:center;
+	padding:5px;
+	margin:3px;
+	text-decoration:none;
+	color:#000066;
+	
+}
+
+
+
+
+
+
+
+
+

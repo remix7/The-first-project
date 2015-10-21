@@ -1,0 +1,76 @@
+#content
+{
+    background-color: #FFFFFF;
+    margin: 0;
+    width: 100%;
+}
+.dress
+{
+    border: 0px solid red;
+    width: 800px;
+    margin: 0 auto;
+    padding:20px;
+}
+img
+{
+    border: 0;
+}
+.dress_img
+{
+    float: left;
+    width: 360px;
+    border: 0px solid red;
+}
+.dress_intro
+{
+    float: left;
+
+    border: 0px solid red;
+    font-size:16px;
+    padding:10px;
+    line-height:22px;
+}
+.dress_title
+{
+    font-family:ºÚÌå;
+    font-size:26px;
+    margin:10px;
+}
+.dress_price
+{
+    float: left;
+    border: 0px solid red;
+}
+
+.dressPrice
+{
+    font-family:Î¢ÈíÑÅºÚ;
+    font-size:30px;
+    color:Red;
+    line-height:50px;
+}
+.dressListPrice
+{
+    text-decoration:line-through;
+        font-family:Î¢ÈíÑÅºÚ;
+    font-size:20px;
+    line-height:50px;
+}
+.buy
+{
+	display:block;
+	background-image:url('../image/buy.jpg');
+	width:64px;
+	height:34px;
+	float:left;
+	margin:3px;
+}
+.collect
+{
+	display:block;
+	background-image:url('../image/collect.jpg');
+	width:64px;
+	height:34px;
+	float:left;
+		margin:3px;
+}

@@ -1,0 +1,183 @@
+/* CSS Document */
+html,body {
+	margin: 0;
+	padding: 0;
+	font-size:12px;
+}
+
+body {
+	background-color: #FFCB99;
+}
+
+88
+{
+border
+:
+1px
+ 
+solid
+ 
+red
+;
+
+
+}
+.clear {
+	clear: both;
+}
+
+#main { /* height:600px;暂定 */
+	
+}
+
+#header {
+	height: 115px;
+
+}
+
+#logo {
+	background-image: url(../image/logo.jpg);
+	background-repeat: no-repeat;
+	width: 287px;
+	height: 83px;
+	/* margin:20px 0 0 30px; */
+	/* 调整位置 */
+	position: relative;
+	top: 20px;
+	left: 150px;
+}
+
+#width170 {
+	width: 480px;
+	float: left;
+}
+
+#menu {
+	height: 30px;
+	background-color: #000 ;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 600px;
+	border: 0px solid red;
+	float: left;
+}
+
+#menu ul li {
+	float: left;
+	width: 100px;
+	height: 26px;
+	margin: 1px 0;
+
+}
+
+#menu ul li a {
+	color: #F60;
+	text-decoration: none;
+	background-color: #FF3;
+	display: block;
+	width: 90px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	border: 1px solid #FFFFFF;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#menu ul li a:hover {
+	background-color:#FFCB99 ;
+}
+
+#menu ul li#current a {
+	background-color: #006699;
+}
+
+#menu a {
+	color: #FFF;
+}
+
+#login_info {
+	color: #FFF;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+
+#content {
+	/* height: 300px; 暂定 */
+	width: 800px;
+	border: 0px solid red;
+	margin: 20px auto;
+}
+
+fieldset {
+	line-height: 30px;
+	padding: 10px 20px;
+	border: 1px solid black;
+}
+
+fieldset table {
+	margin: 0 auto;
+	line-height: 20px;
+	width: 300px;
+}
+
+#pageselector {
+	
+}
+
+#pageselector ul {
+	margin: 20px auto;
+	padding: 0px;
+	width: 270px;
+	border: 0px solid black;
+}
+
+#pageselector ul li {
+	list-style: none;
+	width: 30px;
+	height: 24px;
+	line-height: 24px;
+	float: left;
+}
+
+#pageselector ul li a {
+	text-decoration: none;
+	width: 26px;
+	height: 24px;
+	display: block;
+	border: 1px solid gray;
+	text-align: center;
+	color: black;
+}
+
+#pageselector ul li a:hover {
+	border: 1px solid black;
+	text-decoration: underline;
+}
+
+#pageselector ul li.firstandlast {
+	width: 60px;
+}
+
+#pageselector ul li.firstandlast a {
+	width: 56px;
+}
+
+#inputform {
+	margin: 0 0 0 50px;
+}
+
+#footer {
+	height: 80px;
+	text-align: center;
+}
+
+#footer hr {
+	width: 90%;
+	color: navy;
+}
